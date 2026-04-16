@@ -1,10 +1,11 @@
 import json
+import os
 from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
 
 import requests
 
-WEBHOOK_URL = "https://discord.com/api/webhooks/1494056052319191210/9oyVQzhUk6izMJihGEiCfdbv73xsMQg0H85mIM8X1NkxkSbb3G1OkLfZkv-XNYFUKuLF"
+WEBHOOK_URL = os.environ["DISCORD_WEBHOOK_URL"]
 STATE_FILE = "lineup_state.json"
 ET = ZoneInfo("America/New_York")
 MLB_SCHEDULE_URL = "https://statsapi.mlb.com/api/v1/schedule"
