@@ -53,5 +53,6 @@ jobs:
 
           git commit -m "Update combined bot state"
 
-          git pull --rebase origin main || true
+          git fetch origin main
+          git rebase origin/main || true
           git push origin HEAD:main
