@@ -9,16 +9,37 @@ STATE_FILE = "combined_state.json"
 ET = ZoneInfo("America/New_York")
 MLB_SCHEDULE_URL = "https://statsapi.mlb.com/api/v1/schedule"
 
-# 🔧 PUT YOUR REAL EMOJIS HERE
 TEAM_EMOJIS = {
-    "Los Angeles Angels": "<:angels:YOUR_ID>",
-    "Texas Rangers": "<:rangers:YOUR_ID>",
-    "Seattle Mariners": "<:mariners:YOUR_ID>",
-    "Toronto Blue Jays": "<:bluejays:YOUR_ID>",
-    "Arizona Diamondbacks": "<:dbacks:YOUR_ID>",
-    "Chicago White Sox": "<:whitesox:YOUR_ID>",
-    "Athletics": "<:athletics:YOUR_ID>",
-    # add rest as needed
+    "Arizona Diamondbacks": "⚾",
+    "Atlanta Braves": "<:braves:1319500374482358333>",
+    "Baltimore Orioles": "⚾",
+    "Boston Red Sox": "⚾",
+    "Chicago Cubs": "<:cubs:1319495233037275176>",
+    "Chicago White Sox": "⚾",
+    "Cincinnati Reds": ⚾",
+    "Cleveland Guardians": "<:guardians:1376110439431143464>",
+    "Colorado Rockies": "⚾",
+    "Detroit Tigers": "<:tigers:1375047163888795728>",
+    "Houston Astros": "⚾>",
+    "Kansas City Royals": "⚾",
+    "Los Angeles Angels": "⚾",
+    "Los Angeles Dodgers": "<:ladodgers:1319496737743704094>",
+    "Miami Marlins": "⚾",
+    "Milwaukee Brewers": "⚾",
+    "Minnesota Twins": "<:twins:1383372555255283782>",
+    "New York Mets": "<:mets:1316263476171378790>",
+    "New York Yankees": "<:584d4b6e0a44bd1070d5d493:1319507500495667210>",
+    "Athletics": "⚾",
+    "Philadelphia Phillies": "<:phillies:1375046480959770665>",
+    "Pittsburgh Pirates": "<:pirates:1319496010237612103>",
+    "San Diego Padres": "<:padres:1375529423796965547>",
+    "San Francisco Giants": "⚾",
+    "Seattle Mariners": "⚾",
+    "St. Louis Cardinals": "⚾",
+    "Tampa Bay Rays": "<:tbrays:1319497631172661278>",
+    "Texas Rangers": "⚾",
+    "Toronto Blue Jays": "<:bluejays:1319500116360560724>",
+    "Washington Nationals": "⚾",
 }
 
 STAR_PLAYERS = {
