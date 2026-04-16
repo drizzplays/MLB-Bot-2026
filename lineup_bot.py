@@ -212,6 +212,7 @@ def compare_lineups(old_lineups, new_lineups):
 
 
 def run_check():
+        send_discord_message("🚨 TEST MESSAGE — BOT IS WORKING")
     now = datetime.now(ET).date()
     tomorrow = now + timedelta(days=1)
 
