@@ -32,7 +32,7 @@ TEAM_EMOJIS = {
     "Milwaukee Brewers": "⚾",
     "Minnesota Twins": "⚾",
     "New York Mets": "⚾",
-    "New York Yankees": "⚾",
+    "New York Yankees": "<:584d4b6e0a44bd1070d5d493:1319507500495667210>",
     "Athletics": "⚾",
     "Philadelphia Phillies": "⚾",
     "Pittsburgh Pirates": "⚾",
