@@ -31,4 +31,4 @@ jobs:
       - name: Run combined bot
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
-        run: python main.py
+        run: python combined_bot.py
