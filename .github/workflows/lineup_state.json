@@ -1,0 +1,678 @@
+{
+  "2026-04-15": {
+    "Arizona Diamondbacks @ Baltimore Orioles | 824855": {
+      "away_team": "Arizona Diamondbacks",
+      "home_team": "Baltimore Orioles",
+      "game_time_et": "2026-04-15 12:35 PM ET",
+      "away_lineup": [
+        "Ketel Marte",
+        "Corbin Carroll",
+        "Geraldo Perdomo",
+        "Adrian Del Castillo",
+        "Jose Fernandez",
+        "Ildemaro Vargas",
+        "Nolan Arenado",
+        "Alek Thomas",
+        "Jorge Barrosa"
+      ],
+      "home_lineup": [
+        "Taylor Ward",
+        "Gunnar Henderson",
+        "Pete Alonso",
+        "Leody Taveras",
+        "Colton Cowser",
+        "Jeremiah Jackson",
+        "Coby Mayo",
+        "Sam Huff",
+        "Blaze Alexander"
+      ]
+    },
+    "Cleveland Guardians @ St. Louis Cardinals | 823071": {
+      "away_team": "Cleveland Guardians",
+      "home_team": "St. Louis Cardinals",
+      "game_time_et": "2026-04-15 01:15 PM ET",
+      "away_lineup": [
+        "Steven Kwan",
+        "Chase DeLauter",
+        "Jos\u00e9 Ram\u00edrez",
+        "Angel Mart\u00ednez",
+        "Rhys Hoskins",
+        "Juan Brito",
+        "Daniel Schneemann",
+        "Bo Naylor",
+        "Brayan Rocchio"
+      ],
+      "home_lineup": [
+        "JJ Wetherholt",
+        "Iv\u00e1n Herrera",
+        "Alec Burleson",
+        "Jordan Walker",
+        "Ram\u00f3n Ur\u00edas",
+        "Masyn Winn",
+        "Nathan Church",
+        "Pedro Pag\u00e9s",
+        "Victor Scott II"
+      ]
+    },
+    "Boston Red Sox @ Minnesota Twins | 823722": {
+      "away_team": "Boston Red Sox",
+      "home_team": "Minnesota Twins",
+      "game_time_et": "2026-04-15 01:40 PM ET",
+      "away_lineup": [
+        "Roman Anthony",
+        "Ceddanne Rafaela",
+        "Masataka Yoshida",
+        "Trevor Story",
+        "Jarren Duran",
+        "Andruw Monasterio",
+        "Marcelo Mayer",
+        "Connor Wong",
+        "Isiah Kiner-Falefa"
+      ],
+      "home_lineup": [
+        "Kody Clemens",
+        "Austin Martin",
+        "James Outman",
+        "Ryan Jeffers",
+        "Tristan Gray",
+        "Victor Caratini",
+        "Matt Wallner",
+        "Brooks Lee",
+        "Ryan Kreidler"
+      ]
+    },
+    "Kansas City Royals @ Detroit Tigers | 824291": {
+      "away_team": "Kansas City Royals",
+      "home_team": "Detroit Tigers",
+      "game_time_et": "2026-04-15 06:40 PM ET",
+      "away_lineup": [
+        "Maikel Garcia",
+        "Bobby Witt Jr.",
+        "Vinnie Pasquantino",
+        "Salvador Perez",
+        "Carter Jensen",
+        "Michael Massey",
+        "Jac Caglianone",
+        "Lane Thomas",
+        "Kyle Isbel"
+      ],
+      "home_lineup": [
+        "Kevin McGonigle",
+        "Gleyber Torres",
+        "Colt Keith",
+        "Riley Greene",
+        "Spencer Torkelson",
+        "Kerry Carpenter",
+        "Zach McKinstry",
+        "Javier B\u00e1ez",
+        "Jake Rogers"
+      ]
+    },
+    "Washington Nationals @ Pittsburgh Pirates | 823399": {
+      "away_team": "Washington Nationals",
+      "home_team": "Pittsburgh Pirates",
+      "game_time_et": "2026-04-15 06:40 PM ET",
+      "away_lineup": [
+        "James Wood",
+        "Curtis Mead",
+        "Daylen Lile",
+        "Brady House",
+        "CJ Abrams",
+        "Joey Wiemer",
+        "Jorbit Vivas",
+        "Keibert Ruiz",
+        "Luis Garc\u00eda Jr."
+      ],
+      "home_lineup": [
+        "Oneil Cruz",
+        "Brandon Lowe",
+        "Bryan Reynolds",
+        "Ryan O'Hearn",
+        "Marcell Ozuna",
+        "Nick Gonzales",
+        "Spencer Horwitz",
+        "Nick Yorke",
+        "Henry Davis"
+      ]
+    },
+    "San Francisco Giants @ Cincinnati Reds | 824532": {
+      "away_team": "San Francisco Giants",
+      "home_team": "Cincinnati Reds",
+      "game_time_et": "2026-04-15 06:40 PM ET",
+      "away_lineup": [
+        "Willy Adames",
+        "Luis Arraez",
+        "Casey Schmitt",
+        "Rafael Devers",
+        "Matt Chapman",
+        "Jung Hoo Lee",
+        "Daniel Susac",
+        "Will Brennan",
+        "Drew Gilbert"
+      ],
+      "home_lineup": [
+        "TJ Friedl",
+        "Matt McLain",
+        "Elly De La Cruz",
+        "Sal Stewart",
+        "Eugenio Su\u00e1rez",
+        "Spencer Steer",
+        "Rece Hinds",
+        "Tyler Stephenson",
+        "Ke'Bryan Hayes"
+      ]
+    },
+    "Chicago Cubs @ Philadelphia Phillies | 823477": {
+      "away_team": "Chicago Cubs",
+      "home_team": "Philadelphia Phillies",
+      "game_time_et": "2026-04-15 06:40 PM ET",
+      "away_lineup": [
+        "Nico Hoerner",
+        "Alex Bregman",
+        "Seiya Suzuki",
+        "Ian Happ",
+        "Michael Busch",
+        "Dansby Swanson",
+        "Miguel Amaya",
+        "Pete Crow-Armstrong",
+        "Matt Shaw"
+      ],
+      "home_lineup": [
+        "Trea Turner",
+        "Kyle Schwarber",
+        "Bryce Harper",
+        "Adolis Garc\u00eda",
+        "Edmundo Sosa",
+        "J.T. Realmuto",
+        "Alec Bohm",
+        "Brandon Marsh",
+        "Otto Kemp"
+      ]
+    },
+    "Los Angeles Angels @ New York Yankees | 823561": {
+      "away_team": "Los Angeles Angels",
+      "home_team": "New York Yankees",
+      "game_time_et": "2026-04-15 07:05 PM ET",
+      "away_lineup": [
+        "Zach Neto",
+        "Mike Trout",
+        "Nolan Schanuel",
+        "Jo Adell",
+        "Yo\u00e1n Moncada",
+        "Oswald Peraza",
+        "Josh Lowe",
+        "Logan O'Hoppe",
+        "Adam Frazier"
+      ],
+      "home_lineup": [
+        "Trent Grisham",
+        "Ben Rice",
+        "Aaron Judge",
+        "Cody Bellinger",
+        "Giancarlo Stanton",
+        "Jazz Chisholm Jr.",
+        "Austin Wells",
+        "Jos\u00e9 Caballero",
+        "Ryan McMahon"
+      ]
+    },
+    "Miami Marlins @ Atlanta Braves | 824936": {
+      "away_team": "Miami Marlins",
+      "home_team": "Atlanta Braves",
+      "game_time_et": "2026-04-15 07:15 PM ET",
+      "away_lineup": [
+        "Jakob Marsee",
+        "Xavier Edwards",
+        "Otto Lopez",
+        "Liam Hicks",
+        "Connor Norby",
+        "Owen Caissie",
+        "Heriberto Hern\u00e1ndez",
+        "Graham Pauley",
+        "Deyvison De Los Santos"
+      ],
+      "home_lineup": [
+        "Ronald Acu\u00f1a Jr.",
+        "Drake Baldwin",
+        "Matt Olson",
+        "Austin Riley",
+        "Ozzie Albies",
+        "Mike Yastrzemski",
+        "Dominic Smith",
+        "Mauricio Dub\u00f3n",
+        "Michael Harris II"
+      ]
+    },
+    "Tampa Bay Rays @ Chicago White Sox | 824615": {
+      "away_team": "Tampa Bay Rays",
+      "home_team": "Chicago White Sox",
+      "game_time_et": "2026-04-15 07:40 PM ET",
+      "away_lineup": [
+        "Chandler Simpson",
+        "Junior Caminero",
+        "Jonathan Aranda",
+        "Yandy D\u00edaz",
+        "Jake Fraley",
+        "Cedric Mullins",
+        "Richie Palacios",
+        "Hunter Feduccia",
+        "Taylor Walls"
+      ],
+      "home_lineup": [
+        "Andrew Benintendi",
+        "Munetaka Murakami",
+        "Miguel Vargas",
+        "Colson Montgomery",
+        "Sam Antonacci",
+        "Tanner Murray",
+        "Tristan Peters",
+        "Reese McGuire",
+        "Luisangel Acu\u00f1a"
+      ]
+    },
+    "Toronto Blue Jays @ Milwaukee Brewers | 823803": {
+      "away_team": "Toronto Blue Jays",
+      "home_team": "Milwaukee Brewers",
+      "game_time_et": "2026-04-15 07:40 PM ET",
+      "away_lineup": [
+        "Nathan Lukes",
+        "Daulton Varsho",
+        "Vladimir Guerrero Jr.",
+        "Jes\u00fas S\u00e1nchez",
+        "Kazuma Okamoto",
+        "Ernie Clement",
+        "Andr\u00e9s Gim\u00e9nez",
+        "Lenyn Sosa",
+        "Brandon Valenzuela"
+      ],
+      "home_lineup": [
+        "Sal Frelick",
+        "William Contreras",
+        "Brice Turang",
+        "Gary S\u00e1nchez",
+        "Jake Bauers",
+        "Brandon Lockridge",
+        "Garrett Mitchell",
+        "Joey Ortiz",
+        "David Hamilton"
+      ]
+    },
+    "Colorado Rockies @ Houston Astros | 824209": {
+      "away_team": "Colorado Rockies",
+      "home_team": "Houston Astros",
+      "game_time_et": "2026-04-15 08:10 PM ET",
+      "away_lineup": [
+        "Edouard Julien",
+        "Mickey Moniak",
+        "Hunter Goodman",
+        "Troy Johnston",
+        "TJ Rumfield",
+        "Ezequiel Tovar",
+        "Willi Castro",
+        "Jake McCarthy",
+        "Jordan Beck"
+      ],
+      "home_lineup": [
+        "Carlos Correa",
+        "Yordan Alvarez",
+        "Isaac Paredes",
+        "Christian Walker",
+        "Cam Smith",
+        "Yainer Diaz",
+        "Joey Loperfido",
+        "Nick Allen",
+        "Brice Matthews"
+      ]
+    },
+    "Seattle Mariners @ San Diego Padres | 823314": {
+      "away_team": "Seattle Mariners",
+      "home_team": "San Diego Padres",
+      "game_time_et": "2026-04-15 09:40 PM ET",
+      "away_lineup": [],
+      "home_lineup": []
+    },
+    "Texas Rangers @ Athletics | 825021": {
+      "away_team": "Texas Rangers",
+      "home_team": "Athletics",
+      "game_time_et": "2026-04-15 09:40 PM ET",
+      "away_lineup": [],
+      "home_lineup": []
+    },
+    "New York Mets @ Los Angeles Dodgers | 823963": {
+      "away_team": "New York Mets",
+      "home_team": "Los Angeles Dodgers",
+      "game_time_et": "2026-04-15 10:10 PM ET",
+      "away_lineup": [],
+      "home_lineup": []
+    }
+  },
+  "2026-04-16": {
+    "Washington Nationals @ Pittsburgh Pirates | 823396": {
+      "away_team": "Washington Nationals",
+      "home_team": "Pittsburgh Pirates",
+      "game_time_et": "2026-04-16 12:35 PM ET",
+      "away_lineup": [
+        "James Wood",
+        "Curtis Mead",
+        "Brady House",
+        "Daylen Lile",
+        "CJ Abrams",
+        "Jacob Young",
+        "Jorbit Vivas",
+        "Keibert Ruiz",
+        "Nasim Nu\u00f1ez"
+      ],
+      "home_lineup": [
+        "Jake Mangum",
+        "Nick Gonzales",
+        "Oneil Cruz",
+        "Marcell Ozuna",
+        "Nick Yorke",
+        "Brandon Lowe",
+        "Joey Bart",
+        "Konnor Griffin",
+        "Spencer Horwitz"
+      ]
+    },
+    "San Francisco Giants @ Cincinnati Reds | 824530": {
+      "away_team": "San Francisco Giants",
+      "home_team": "Cincinnati Reds",
+      "game_time_et": "2026-04-16 12:40 PM ET",
+      "away_lineup": [
+        "Luis Arraez",
+        "Willy Adames",
+        "Rafael Devers",
+        "Matt Chapman",
+        "Jung Hoo Lee",
+        "Heliot Ramos",
+        "Casey Schmitt",
+        "Drew Gilbert",
+        "Patrick Bailey"
+      ],
+      "home_lineup": [
+        "Dane Myers",
+        "Matt McLain",
+        "Elly De La Cruz",
+        "Sal Stewart",
+        "Eugenio Su\u00e1rez",
+        "Spencer Steer",
+        "Rece Hinds",
+        "Ke'Bryan Hayes",
+        "P.J. Higgins"
+      ]
+    },
+    "Kansas City Royals @ Detroit Tigers | 824289": {
+      "away_team": "Kansas City Royals",
+      "home_team": "Detroit Tigers",
+      "game_time_et": "2026-04-16 01:10 PM ET",
+      "away_lineup": [
+        "Maikel Garcia",
+        "Bobby Witt Jr.",
+        "Vinnie Pasquantino",
+        "Salvador Perez",
+        "Carter Jensen",
+        "Jonathan India",
+        "Jac Caglianone",
+        "Michael Massey",
+        "Kyle Isbel"
+      ],
+      "home_lineup": [
+        "Gleyber Torres",
+        "Kevin McGonigle",
+        "Jahmai Jones",
+        "Dillon Dingler",
+        "Riley Greene",
+        "Matt Vierling",
+        "Spencer Torkelson",
+        "Wenceel P\u00e9rez",
+        "Javier B\u00e1ez"
+      ]
+    },
+    "Los Angeles Angels @ New York Yankees | 823560": {
+      "away_team": "Los Angeles Angels",
+      "home_team": "New York Yankees",
+      "game_time_et": "2026-04-16 01:35 PM ET",
+      "away_lineup": [
+        "Zach Neto",
+        "Mike Trout",
+        "Jo Adell",
+        "Oswald Peraza",
+        "Vaughn Grissom",
+        "Nolan Schanuel",
+        "Travis d'Arnaud",
+        "Josh Lowe",
+        "Bryce Teodosio"
+      ],
+      "home_lineup": [
+        "Trent Grisham",
+        "Aaron Judge",
+        "Cody Bellinger",
+        "Giancarlo Stanton",
+        "Ben Rice",
+        "Amed Rosario",
+        "Jazz Chisholm Jr.",
+        "Jos\u00e9 Caballero",
+        "J.C. Escarra"
+      ]
+    },
+    "Toronto Blue Jays @ Milwaukee Brewers | 823801": {
+      "away_team": "Toronto Blue Jays",
+      "home_team": "Milwaukee Brewers",
+      "game_time_et": "2026-04-16 01:40 PM ET",
+      "away_lineup": [
+        "Davis Schneider",
+        "Daulton Varsho",
+        "Vladimir Guerrero Jr.",
+        "Jes\u00fas S\u00e1nchez",
+        "Lenyn Sosa",
+        "Kazuma Okamoto",
+        "Andr\u00e9s Gim\u00e9nez",
+        "Ernie Clement",
+        "Tyler Heineman"
+      ],
+      "home_lineup": [
+        "Brandon Lockridge",
+        "Brice Turang",
+        "William Contreras",
+        "Gary S\u00e1nchez",
+        "Jake Bauers",
+        "Luis Matos",
+        "Greg Jones",
+        "David Hamilton",
+        "Joey Ortiz"
+      ]
+    },
+    "Tampa Bay Rays @ Chicago White Sox | 824614": {
+      "away_team": "Tampa Bay Rays",
+      "home_team": "Chicago White Sox",
+      "game_time_et": "2026-04-16 02:10 PM ET",
+      "away_lineup": [
+        "Chandler Simpson",
+        "Junior Caminero",
+        "Cedric Mullins",
+        "Yandy D\u00edaz",
+        "Ryan Vilade",
+        "Ben Williamson",
+        "Jonny DeLuca",
+        "Nick Fortes",
+        "Taylor Walls"
+      ],
+      "home_lineup": [
+        "Miguel Vargas",
+        "Chase Meidroth",
+        "Munetaka Murakami",
+        "Everson Pereira",
+        "Edgar Quero",
+        "Tanner Murray",
+        "Andrew Benintendi",
+        "Derek Hill",
+        "Sam Antonacci"
+      ]
+    },
+    "Texas Rangers @ Athletics | 825023": {
+      "away_team": "Texas Rangers",
+      "home_team": "Athletics",
+      "game_time_et": "2026-04-16 03:05 PM ET",
+      "away_lineup": [
+        "Brandon Nimmo",
+        "Wyatt Langford",
+        "Jake Burger",
+        "Josh Jung",
+        "Kyle Higashioka",
+        "Andrew McCutchen",
+        "Sam Haggerty",
+        "Josh Smith",
+        "Ezequiel Duran"
+      ],
+      "home_lineup": [
+        "Jeff McNeil",
+        "Shea Langeliers",
+        "Nick Kurtz",
+        "Tyler Soderstrom",
+        "Jacob Wilson",
+        "Carlos Cortes",
+        "Lawrence Butler",
+        "Austin Wynns",
+        "Darell Hernaiz"
+      ]
+    },
+    "Baltimore Orioles @ Cleveland Guardians | 824453": {
+      "away_team": "Baltimore Orioles",
+      "home_team": "Cleveland Guardians",
+      "game_time_et": "2026-04-16 06:10 PM ET",
+      "away_lineup": [],
+      "home_lineup": [
+        "Steven Kwan",
+        "Chase DeLauter",
+        "Jos\u00e9 Ram\u00edrez",
+        "Kyle Manzardo",
+        "George Valera",
+        "Angel Mart\u00ednez",
+        "Juan Brito",
+        "Austin Hedges",
+        "Brayan Rocchio"
+      ]
+    },
+    "Colorado Rockies @ Houston Astros | 824208": {
+      "away_team": "Colorado Rockies",
+      "home_team": "Houston Astros",
+      "game_time_et": "2026-04-16 08:10 PM ET",
+      "away_lineup": [],
+      "home_lineup": []
+    },
+    "Seattle Mariners @ San Diego Padres | 823313": {
+      "away_team": "Seattle Mariners",
+      "home_team": "San Diego Padres",
+      "game_time_et": "2026-04-16 08:40 PM ET",
+      "away_lineup": [],
+      "home_lineup": []
+    }
+  },
+  "2026-04-17": {
+    "New York Mets @ Chicago Cubs | 824693": {
+      "away_team": "New York Mets",
+      "home_team": "Chicago Cubs",
+      "game_time_et": "2026-04-17 02:20 PM ET",
+      "away_lineup": [],
+      "home_lineup": []
+    },
+    "Baltimore Orioles @ Cleveland Guardians | 824454": {
+      "away_team": "Baltimore Orioles",
+      "home_team": "Cleveland Guardians",
+      "game_time_et": "2026-04-17 06:10 PM ET",
+      "away_lineup": [],
+      "home_lineup": []
+    },
+    "Atlanta Braves @ Philadelphia Phillies | 823476": {
+      "away_team": "Atlanta Braves",
+      "home_team": "Philadelphia Phillies",
+      "game_time_et": "2026-04-17 06:40 PM ET",
+      "away_lineup": [],
+      "home_lineup": []
+    },
+    "San Francisco Giants @ Washington Nationals | 822752": {
+      "away_team": "San Francisco Giants",
+      "home_team": "Washington Nationals",
+      "game_time_et": "2026-04-17 06:45 PM ET",
+      "away_lineup": [],
+      "home_lineup": []
+    },
+    "Tampa Bay Rays @ Pittsburgh Pirates | 823397": {
+      "away_team": "Tampa Bay Rays",
+      "home_team": "Pittsburgh Pirates",
+      "game_time_et": "2026-04-17 06:45 PM ET",
+      "away_lineup": [],
+      "home_lineup": []
+    },
+    "Kansas City Royals @ New York Yankees | 823559": {
+      "away_team": "Kansas City Royals",
+      "home_team": "New York Yankees",
+      "game_time_et": "2026-04-17 07:05 PM ET",
+      "away_lineup": [],
+      "home_lineup": []
+    },
+    "Milwaukee Brewers @ Miami Marlins | 823883": {
+      "away_team": "Milwaukee Brewers",
+      "home_team": "Miami Marlins",
+      "game_time_et": "2026-04-17 07:10 PM ET",
+      "away_lineup": [],
+      "home_lineup": []
+    },
+    "Detroit Tigers @ Boston Red Sox | 824778": {
+      "away_team": "Detroit Tigers",
+      "home_team": "Boston Red Sox",
+      "game_time_et": "2026-04-17 07:15 PM ET",
+      "away_lineup": [],
+      "home_lineup": []
+    },
+    "St. Louis Cardinals @ Houston Astros | 824207": {
+      "away_team": "St. Louis Cardinals",
+      "home_team": "Houston Astros",
+      "game_time_et": "2026-04-17 08:10 PM ET",
+      "away_lineup": [],
+      "home_lineup": []
+    },
+    "Cincinnati Reds @ Minnesota Twins | 823720": {
+      "away_team": "Cincinnati Reds",
+      "home_team": "Minnesota Twins",
+      "game_time_et": "2026-04-17 08:10 PM ET",
+      "away_lineup": [],
+      "home_lineup": []
+    },
+    "Los Angeles Dodgers @ Colorado Rockies | 824373": {
+      "away_team": "Los Angeles Dodgers",
+      "home_team": "Colorado Rockies",
+      "game_time_et": "2026-04-17 08:40 PM ET",
+      "away_lineup": [],
+      "home_lineup": []
+    },
+    "San Diego Padres @ Los Angeles Angels | 824048": {
+      "away_team": "San Diego Padres",
+      "home_team": "Los Angeles Angels",
+      "game_time_et": "2026-04-17 09:38 PM ET",
+      "away_lineup": [],
+      "home_lineup": []
+    },
+    "Texas Rangers @ Seattle Mariners | 823152": {
+      "away_team": "Texas Rangers",
+      "home_team": "Seattle Mariners",
+      "game_time_et": "2026-04-17 09:40 PM ET",
+      "away_lineup": [],
+      "home_lineup": []
+    },
+    "Toronto Blue Jays @ Arizona Diamondbacks | 825101": {
+      "away_team": "Toronto Blue Jays",
+      "home_team": "Arizona Diamondbacks",
+      "game_time_et": "2026-04-17 09:40 PM ET",
+      "away_lineup": [],
+      "home_lineup": []
+    },
+    "Chicago White Sox @ Athletics | 825019": {
+      "away_team": "Chicago White Sox",
+      "home_team": "Athletics",
+      "game_time_et": "2026-04-17 09:40 PM ET",
+      "away_lineup": [],
+      "home_lineup": []
+    }
+  }
+}
