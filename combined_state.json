@@ -317,7 +317,17 @@
       "home_team": "Chicago Cubs",
       "away_pitcher": "Kodai Senga",
       "home_pitcher": "Edward Cabrera",
-      "away_lineup": [],
+      "away_lineup": [
+        "Carson Benge",
+        "Bo Bichette",
+        "Francisco Lindor",
+        "Luis Robert Jr.",
+        "Francisco Alvarez",
+        "MJ Melendez",
+        "Marcus Semien",
+        "Brett Baty",
+        "Tyrone Taylor"
+      ],
       "home_lineup": [],
       "game_time": "2026-04-17 02:20 PM ET",
       "game_iso": "2026-04-17T14:20:00-04:00",
