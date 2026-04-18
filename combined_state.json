@@ -795,7 +795,17 @@
         "Lane Thomas",
         "Kyle Isbel"
       ],
-      "home_lineup": [],
+      "home_lineup": [
+        "Amed Rosario",
+        "Aaron Judge",
+        "Cody Bellinger",
+        "Giancarlo Stanton",
+        "Ben Rice",
+        "Randal Grichuk",
+        "Jazz Chisholm Jr.",
+        "Jos\u00e9 Caballero",
+        "J.C. Escarra"
+      ],
       "game_time": "2026-04-18 01:35 PM ET",
       "game_iso": "2026-04-18T13:35:00-04:00",
       "game_pk": "823558"
@@ -816,7 +826,17 @@
         "Rece Hinds",
         "Ke'Bryan Hayes"
       ],
-      "home_lineup": [],
+      "home_lineup": [
+        "Byron Buxton",
+        "Austin Martin",
+        "Josh Bell",
+        "Ryan Jeffers",
+        "Luke Keaschall",
+        "Trevor Larnach",
+        "Brooks Lee",
+        "Ryan Kreidler",
+        "Tristan Gray"
+      ],
       "game_time": "2026-04-18 02:10 PM ET",
       "game_iso": "2026-04-18T14:10:00-04:00",
       "game_pk": "823721"
@@ -826,8 +846,28 @@
       "home_team": "Chicago Cubs",
       "away_pitcher": "Freddy Peralta",
       "home_pitcher": "Jameson Taillon",
-      "away_lineup": [],
-      "home_lineup": [],
+      "away_lineup": [
+        "Carson Benge",
+        "Bo Bichette",
+        "Francisco Lindor",
+        "Luis Robert Jr.",
+        "MJ Melendez",
+        "Francisco Alvarez",
+        "Mark Vientos",
+        "Brett Baty",
+        "Marcus Semien"
+      ],
+      "home_lineup": [
+        "Nico Hoerner",
+        "Michael Busch",
+        "Alex Bregman",
+        "Ian Happ",
+        "Seiya Suzuki",
+        "Mois\u00e9s Ballesteros",
+        "Miguel Amaya",
+        "Pete Crow-Armstrong",
+        "Dansby Swanson"
+      ],
       "game_time": "2026-04-18 02:20 PM ET",
       "game_iso": "2026-04-18T14:20:00-04:00",
       "game_pk": "824694"
@@ -838,7 +878,17 @@
       "away_pitcher": "Adrian Houser",
       "home_pitcher": "Cade Cavalli",
       "away_lineup": [],
-      "home_lineup": [],
+      "home_lineup": [
+        "James Wood",
+        "Luis Garc\u00eda Jr.",
+        "Jos\u00e9 Tena",
+        "CJ Abrams",
+        "Jacob Young",
+        "Daylen Lile",
+        "Nasim Nu\u00f1ez",
+        "Jorbit Vivas",
+        "Drew Millas"
+      ],
       "game_time": "2026-04-18 04:05 PM ET",
       "game_iso": "2026-04-18T16:05:00-04:00",
       "game_pk": "822751"
@@ -871,7 +921,17 @@
       "away_pitcher": "Tarik Skubal",
       "home_pitcher": "Brayan Bello",
       "away_lineup": [],
-      "home_lineup": [],
+      "home_lineup": [
+        "Roman Anthony",
+        "Andruw Monasterio",
+        "Willson Contreras",
+        "Trevor Story",
+        "Wilyer Abreu",
+        "Ceddanne Rafaela",
+        "Caleb Durbin",
+        "Connor Wong",
+        "Isiah Kiner-Falefa"
+      ],
       "game_time": "2026-04-18 04:10 PM ET",
       "game_iso": "2026-04-18T16:10:00-04:00",
       "game_pk": "824775"
