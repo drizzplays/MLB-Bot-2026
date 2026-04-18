@@ -872,12 +872,53 @@
       "game_iso": "2026-04-18T14:20:00-04:00",
       "game_pk": "824694"
     },
+    "Tampa Bay Rays @ Pittsburgh Pirates | 823394": {
+      "away_team": "Tampa Bay Rays",
+      "home_team": "Pittsburgh Pirates",
+      "away_pitcher": "Drew Rasmussen",
+      "home_pitcher": "Paul Skenes",
+      "away_lineup": [
+        "Chandler Simpson",
+        "Junior Caminero",
+        "Jonathan Aranda",
+        "Yandy D\u00edaz",
+        "Jake Fraley",
+        "Cedric Mullins",
+        "Richie Palacios",
+        "Hunter Feduccia",
+        "Taylor Walls"
+      ],
+      "home_lineup": [
+        "Oneil Cruz",
+        "Brandon Lowe",
+        "Bryan Reynolds",
+        "Ryan O'Hearn",
+        "Marcell Ozuna",
+        "Nick Yorke",
+        "Spencer Horwitz",
+        "Konnor Griffin",
+        "Henry Davis"
+      ],
+      "game_time": "2026-04-18 03:30 PM ET",
+      "game_iso": "2026-04-18T15:30:00-04:00",
+      "game_pk": "823394"
+    },
     "San Francisco Giants @ Washington Nationals | 822751": {
       "away_team": "San Francisco Giants",
       "home_team": "Washington Nationals",
       "away_pitcher": "Adrian Houser",
       "home_pitcher": "Cade Cavalli",
-      "away_lineup": [],
+      "away_lineup": [
+        "Willy Adames",
+        "Luis Arraez",
+        "Matt Chapman",
+        "Rafael Devers",
+        "Casey Schmitt",
+        "Jung Hoo Lee",
+        "Heliot Ramos",
+        "Drew Gilbert",
+        "Patrick Bailey"
+      ],
       "home_lineup": [
         "James Wood",
         "Luis Garc\u00eda Jr.",
@@ -893,24 +934,33 @@
       "game_iso": "2026-04-18T16:05:00-04:00",
       "game_pk": "822751"
     },
-    "Tampa Bay Rays @ Pittsburgh Pirates | 823394": {
-      "away_team": "Tampa Bay Rays",
-      "home_team": "Pittsburgh Pirates",
-      "away_pitcher": "Drew Rasmussen",
-      "home_pitcher": "Paul Skenes",
-      "away_lineup": [],
-      "home_lineup": [],
-      "game_time": "2026-04-18 04:05 PM ET",
-      "game_iso": "2026-04-18T16:05:00-04:00",
-      "game_pk": "823394"
-    },
     "Chicago White Sox @ Athletics | 825020": {
       "away_team": "Chicago White Sox",
       "home_team": "Athletics",
       "away_pitcher": "Erick Fedde",
       "home_pitcher": "Luis Severino",
-      "away_lineup": [],
-      "home_lineup": [],
+      "away_lineup": [
+        "Andrew Benintendi",
+        "Munetaka Murakami",
+        "Miguel Vargas",
+        "Colson Montgomery",
+        "Everson Pereira",
+        "Sam Antonacci",
+        "Chase Meidroth",
+        "Tristan Peters",
+        "Reese McGuire"
+      ],
+      "home_lineup": [
+        "Jeff McNeil",
+        "Shea Langeliers",
+        "Nick Kurtz",
+        "Tyler Soderstrom",
+        "Jacob Wilson",
+        "Carlos Cortes",
+        "Max Muncy",
+        "Lawrence Butler",
+        "Austin Wynns"
+      ],
       "game_time": "2026-04-18 04:05 PM ET",
       "game_iso": "2026-04-18T16:05:00-04:00",
       "game_pk": "825020"
@@ -920,7 +970,17 @@
       "home_team": "Boston Red Sox",
       "away_pitcher": "Tarik Skubal",
       "home_pitcher": "Brayan Bello",
-      "away_lineup": [],
+      "away_lineup": [
+        "Kevin McGonigle",
+        "Gleyber Torres",
+        "Colt Keith",
+        "Riley Greene",
+        "Spencer Torkelson",
+        "Kerry Carpenter",
+        "Wenceel P\u00e9rez",
+        "Javier B\u00e1ez",
+        "Jake Rogers"
+      ],
       "home_lineup": [
         "Roman Anthony",
         "Andruw Monasterio",
@@ -941,8 +1001,28 @@
       "home_team": "Miami Marlins",
       "away_pitcher": "Brandon Woodruff",
       "home_pitcher": "Sandy Alcantara",
-      "away_lineup": [],
-      "home_lineup": [],
+      "away_lineup": [
+        "Sal Frelick",
+        "William Contreras",
+        "Brice Turang",
+        "Gary S\u00e1nchez",
+        "Jake Bauers",
+        "Luis Rengifo",
+        "Garrett Mitchell",
+        "Brandon Lockridge",
+        "Joey Ortiz"
+      ],
+      "home_lineup": [
+        "Jakob Marsee",
+        "Xavier Edwards",
+        "Agust\u00edn Ram\u00edrez",
+        "Liam Hicks",
+        "Otto Lopez",
+        "Connor Norby",
+        "Owen Caissie",
+        "Heriberto Hern\u00e1ndez",
+        "Javier Sanoja"
+      ],
       "game_time": "2026-04-18 04:10 PM ET",
       "game_iso": "2026-04-18T16:10:00-04:00",
       "game_pk": "823882"
