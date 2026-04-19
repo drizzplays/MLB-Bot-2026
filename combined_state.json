@@ -1257,7 +1257,7 @@
         "Matt Chapman",
         "Rafael Devers",
         "Casey Schmitt",
-        "Jung Hoo Lee",
+        "Jerar Encarnacion",
         "Heliot Ramos",
         "Drew Gilbert",
         "Patrick Bailey"
@@ -1302,7 +1302,7 @@
         "Nick Yorke",
         "Konnor Griffin",
         "Joey Bart",
-        "Billy Cook"
+        "Spencer Horwitz"
       ],
       "game_time": "2026-04-19 01:35 PM ET",
       "game_iso": "2026-04-19T13:35:00-04:00",
@@ -1348,9 +1348,9 @@
         "Taylor Ward",
         "Gunnar Henderson",
         "Pete Alonso",
-        "Johnathan Rodr\u00edguez",
+        "Leody Taveras",
         "Jeremiah Jackson",
-        "Weston Wilson",
+        "Dylan Beavers",
         "Coby Mayo",
         "Sam Huff",
         "Blaze Alexander"
@@ -1395,7 +1395,7 @@
         "Liam Hicks",
         "Connor Norby",
         "Owen Caissie",
-        "Graham Pauley"
+        "Javier Sanoja"
       ],
       "game_time": "2026-04-19 01:40 PM ET",
       "game_iso": "2026-04-19T13:40:00-04:00",
@@ -1446,7 +1446,7 @@
         "Spencer Steer",
         "Tyler Stephenson",
         "Rece Hinds",
-        "Ke'Bryan Hayes"
+        "Nathaniel Lowe"
       ],
       "home_lineup": [
         "Byron Buxton",
@@ -1685,8 +1685,28 @@
       "home_team": "Philadelphia Phillies",
       "away_pitcher": "Grant Holmes",
       "home_pitcher": "Andrew Painter",
-      "away_lineup": [],
-      "home_lineup": [],
+      "away_lineup": [
+        "Ronald Acu\u00f1a Jr.",
+        "Drake Baldwin",
+        "Matt Olson",
+        "Austin Riley",
+        "Ozzie Albies",
+        "Mike Yastrzemski",
+        "Dominic Smith",
+        "Mauricio Dub\u00f3n",
+        "Michael Harris II"
+      ],
+      "home_lineup": [
+        "Trea Turner",
+        "Kyle Schwarber",
+        "Bryce Harper",
+        "Adolis Garc\u00eda",
+        "Brandon Marsh",
+        "Alec Bohm",
+        "Bryson Stott",
+        "Rafael March\u00e1n",
+        "Justin Crawford"
+      ],
       "game_time": "2026-04-19 07:20 PM ET",
       "game_iso": "2026-04-19T19:20:00-04:00",
       "game_pk": "823475"
@@ -1740,7 +1760,7 @@
     "Atlanta Braves @ Washington Nationals | 822749": {
       "away_team": "Atlanta Braves",
       "home_team": "Washington Nationals",
-      "away_pitcher": "TBD",
+      "away_pitcher": "Bryce Elder",
       "home_pitcher": "Jake Irvin",
       "away_lineup": [],
       "home_lineup": [],
@@ -1784,7 +1804,7 @@
     "Toronto Blue Jays @ Los Angeles Angels | 824046": {
       "away_team": "Toronto Blue Jays",
       "home_team": "Los Angeles Angels",
-      "away_pitcher": "TBD",
+      "away_pitcher": "Dylan Cease",
       "home_pitcher": "Reid Detmers",
       "away_lineup": [],
       "home_lineup": [],
@@ -1795,8 +1815,8 @@
     "Athletics @ Seattle Mariners | 823149": {
       "away_team": "Athletics",
       "home_team": "Seattle Mariners",
-      "away_pitcher": "TBD",
-      "home_pitcher": "TBD",
+      "away_pitcher": "J.T. Ginn",
+      "home_pitcher": "Emerson Hancock",
       "away_lineup": [],
       "home_lineup": [],
       "game_time": "2026-04-20 09:40 PM ET",
