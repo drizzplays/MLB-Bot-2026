@@ -2182,13 +2182,180 @@
     "Los Angeles Dodgers @ San Francisco Giants | 823236": {
       "away_team": "Los Angeles Dodgers",
       "home_team": "San Francisco Giants",
-      "away_pitcher": "TBD",
+      "away_pitcher": "Yoshinobu Yamamoto",
       "home_pitcher": "Landen Roupp",
       "away_lineup": [],
       "home_lineup": [],
       "game_time": "2026-04-21 09:45 PM ET",
       "game_iso": "2026-04-21T21:45:00-04:00",
       "game_pk": "823236"
+    }
+  },
+  "2026-04-22": {
+    "St. Louis Cardinals @ Miami Marlins | 823878": {
+      "away_team": "St. Louis Cardinals",
+      "home_team": "Miami Marlins",
+      "away_pitcher": "Kyle Leahy",
+      "home_pitcher": "Janson Junk",
+      "away_lineup": [],
+      "home_lineup": [],
+      "game_time": "2026-04-22 12:10 PM ET",
+      "game_iso": "2026-04-22T12:10:00-04:00",
+      "game_pk": "823878"
+    },
+    "Houston Astros @ Cleveland Guardians | 824449": {
+      "away_team": "Houston Astros",
+      "home_team": "Cleveland Guardians",
+      "away_pitcher": "Peter Lambert",
+      "home_pitcher": "Tanner Bibee",
+      "away_lineup": [],
+      "home_lineup": [],
+      "game_time": "2026-04-22 01:10 PM ET",
+      "game_iso": "2026-04-22T13:10:00-04:00",
+      "game_pk": "824449"
+    },
+    "Cincinnati Reds @ Tampa Bay Rays | 822993": {
+      "away_team": "Cincinnati Reds",
+      "home_team": "Tampa Bay Rays",
+      "away_pitcher": "Brandon Williamson",
+      "home_pitcher": "Nick Martinez",
+      "away_lineup": [],
+      "home_lineup": [],
+      "game_time": "2026-04-22 01:10 PM ET",
+      "game_iso": "2026-04-22T13:10:00-04:00",
+      "game_pk": "822993"
+    },
+    "Baltimore Orioles @ Kansas City Royals | 824123": {
+      "away_team": "Baltimore Orioles",
+      "home_team": "Kansas City Royals",
+      "away_pitcher": "Chris Bassitt",
+      "home_pitcher": "Michael Wacha",
+      "away_lineup": [],
+      "home_lineup": [],
+      "game_time": "2026-04-22 02:10 PM ET",
+      "game_iso": "2026-04-22T14:10:00-04:00",
+      "game_pk": "824123"
+    },
+    "Toronto Blue Jays @ Los Angeles Angels | 824044": {
+      "away_team": "Toronto Blue Jays",
+      "home_team": "Los Angeles Angels",
+      "away_pitcher": "Eric Lauer",
+      "home_pitcher": "Jos\u00e9 Soriano",
+      "away_lineup": [],
+      "home_lineup": [],
+      "game_time": "2026-04-22 03:07 PM ET",
+      "game_iso": "2026-04-22T15:07:00-04:00",
+      "game_pk": "824044"
+    },
+    "Athletics @ Seattle Mariners | 823147": {
+      "away_team": "Athletics",
+      "home_team": "Seattle Mariners",
+      "away_pitcher": "Aaron Civale",
+      "home_pitcher": "Logan Gilbert",
+      "away_lineup": [],
+      "home_lineup": [],
+      "game_time": "2026-04-22 04:10 PM ET",
+      "game_iso": "2026-04-22T16:10:00-04:00",
+      "game_pk": "823147"
+    },
+    "Milwaukee Brewers @ Detroit Tigers | 824286": {
+      "away_team": "Milwaukee Brewers",
+      "home_team": "Detroit Tigers",
+      "away_pitcher": "Chad Patrick",
+      "home_pitcher": "Casey Mize",
+      "away_lineup": [],
+      "home_lineup": [],
+      "game_time": "2026-04-22 06:40 PM ET",
+      "game_iso": "2026-04-22T18:40:00-04:00",
+      "game_pk": "824286"
+    },
+    "Atlanta Braves @ Washington Nationals | 822748": {
+      "away_team": "Atlanta Braves",
+      "home_team": "Washington Nationals",
+      "away_pitcher": "Mart\u00edn P\u00e9rez",
+      "home_pitcher": "Zack Littell",
+      "away_lineup": [],
+      "home_lineup": [],
+      "game_time": "2026-04-22 06:45 PM ET",
+      "game_iso": "2026-04-22T18:45:00-04:00",
+      "game_pk": "822748"
+    },
+    "New York Yankees @ Boston Red Sox | 824774": {
+      "away_team": "New York Yankees",
+      "home_team": "Boston Red Sox",
+      "away_pitcher": "Max Fried",
+      "home_pitcher": "Ranger Suarez",
+      "away_lineup": [],
+      "home_lineup": [],
+      "game_time": "2026-04-22 06:45 PM ET",
+      "game_iso": "2026-04-22T18:45:00-04:00",
+      "game_pk": "824774"
+    },
+    "Minnesota Twins @ New York Mets | 823641": {
+      "away_team": "Minnesota Twins",
+      "home_team": "New York Mets",
+      "away_pitcher": "TBD",
+      "home_pitcher": "Clay Holmes",
+      "away_lineup": [],
+      "home_lineup": [],
+      "game_time": "2026-04-22 07:10 PM ET",
+      "game_iso": "2026-04-22T19:10:00-04:00",
+      "game_pk": "823641"
+    },
+    "Philadelphia Phillies @ Chicago Cubs | 824688": {
+      "away_team": "Philadelphia Phillies",
+      "home_team": "Chicago Cubs",
+      "away_pitcher": "TBD",
+      "home_pitcher": "Matthew Boyd",
+      "away_lineup": [],
+      "home_lineup": [],
+      "game_time": "2026-04-22 07:40 PM ET",
+      "game_iso": "2026-04-22T19:40:00-04:00",
+      "game_pk": "824688"
+    },
+    "Pittsburgh Pirates @ Texas Rangers | 822913": {
+      "away_team": "Pittsburgh Pirates",
+      "home_team": "Texas Rangers",
+      "away_pitcher": "TBD",
+      "home_pitcher": "TBD",
+      "away_lineup": [],
+      "home_lineup": [],
+      "game_time": "2026-04-22 08:05 PM ET",
+      "game_iso": "2026-04-22T20:05:00-04:00",
+      "game_pk": "822913"
+    },
+    "San Diego Padres @ Colorado Rockies | 824367": {
+      "away_team": "San Diego Padres",
+      "home_team": "Colorado Rockies",
+      "away_pitcher": "Walker Buehler",
+      "home_pitcher": "TBD",
+      "away_lineup": [],
+      "home_lineup": [],
+      "game_time": "2026-04-22 08:40 PM ET",
+      "game_iso": "2026-04-22T20:40:00-04:00",
+      "game_pk": "824367"
+    },
+    "Chicago White Sox @ Arizona Diamondbacks | 825097": {
+      "away_team": "Chicago White Sox",
+      "home_team": "Arizona Diamondbacks",
+      "away_pitcher": "Anthony Kay",
+      "home_pitcher": "Eduardo Rodriguez",
+      "away_lineup": [],
+      "home_lineup": [],
+      "game_time": "2026-04-22 09:40 PM ET",
+      "game_iso": "2026-04-22T21:40:00-04:00",
+      "game_pk": "825097"
+    },
+    "Los Angeles Dodgers @ San Francisco Giants | 823231": {
+      "away_team": "Los Angeles Dodgers",
+      "home_team": "San Francisco Giants",
+      "away_pitcher": "Shohei Ohtani",
+      "home_pitcher": "Tyler Mahle",
+      "away_lineup": [],
+      "home_lineup": [],
+      "game_time": "2026-04-22 09:45 PM ET",
+      "game_iso": "2026-04-22T21:45:00-04:00",
+      "game_pk": "823231"
     }
   }
 }
