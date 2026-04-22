@@ -44,8 +44,6 @@ TEAM_EMOJIS = {
 }
 
 CHECK_TOMORROW = True
-
-# Turn this on while debugging
 DEBUG = True
 
 
@@ -94,7 +92,6 @@ def load_batters(filename="batters.txt"):
 
 
 WATCHED_BATTERS = load_batters()
-PLAYER_TEAM_CACHE = {}
 
 
 def extract_lineup(team_data):
@@ -108,6 +105,18 @@ def extract_lineup(team_data):
         lineup.append(name)
 
     return lineup
+
+
+def extract_roster(team_data):
+    players = team_data.get("players", {})
+    roster = []
+
+    for player in players.values():
+        name = player.get("person", {}).get("fullName")
+        if name:
+            roster.append(name)
+
+    return roster
 
 
 def is_pregame(game_iso):
@@ -156,6 +165,8 @@ def get_games(target_date):
 
             away_lineup = []
             home_lineup = []
+            away_roster = []
+            home_roster = []
 
             try:
                 box = requests.get(
@@ -166,8 +177,15 @@ def get_games(target_date):
                 box_data = box.json()
 
                 teams = box_data.get("teams", {})
-                away_lineup = extract_lineup(teams.get("away", {}))
-                home_lineup = extract_lineup(teams.get("home", {}))
+                away_team_data = teams.get("away", {})
+                home_team_data = teams.get("home", {})
+
+                away_lineup = extract_lineup(away_team_data)
+                home_lineup = extract_lineup(home_team_data)
+
+                away_roster = extract_roster(away_team_data)
+                home_roster = extract_roster(home_team_data)
+
             except Exception as e:
                 print(f"Failed to load boxscore for {away_team} @ {home_team}: {e}")
 
@@ -177,43 +195,14 @@ def get_games(target_date):
                 "home_team": home_team,
                 "away_lineup": away_lineup,
                 "home_lineup": home_lineup,
+                "away_roster": away_roster,
+                "home_roster": home_roster,
                 "game_time": game_time,
                 "game_iso": game_iso,
                 "game_pk": game_pk,
             }
 
     return games
-
-
-def get_player_team(player_name):
-    if player_name in PLAYER_TEAM_CACHE:
-        return PLAYER_TEAM_CACHE[player_name]
-
-    try:
-        r = requests.get(
-            "https://statsapi.mlb.com/api/v1/people/search",
-            params={"sportId": 1, "name": player_name},
-            timeout=10,
-        )
-        r.raise_for_status()
-        data = r.json()
-        people = data.get("people", [])
-
-        if not people:
-            debug(f"[TEAM LOOKUP] No result for: {player_name}")
-            PLAYER_TEAM_CACHE[player_name] = None
-            return None
-
-        current_team = people[0].get("currentTeam", {})
-        team_name = current_team.get("name")
-        debug(f"[TEAM LOOKUP] {player_name} -> {team_name}")
-        PLAYER_TEAM_CACHE[player_name] = team_name
-        return team_name
-
-    except Exception as e:
-        debug(f"[TEAM LOOKUP] Failed for {player_name}: {e}")
-        PLAYER_TEAM_CACHE[player_name] = None
-        return None
 
 
 def build(old_game, new_game):
@@ -233,16 +222,14 @@ def build(old_game, new_game):
         debug(f"[BUILD] No lineup change for {away_team} @ {home_team}")
         return None
 
+    away_roster = set(new_game.get("away_roster", []))
+    home_roster = set(new_game.get("home_roster", []))
+
     missing_lines = []
     active_lines = []
 
     for batter in WATCHED_BATTERS:
-        batter_team = get_player_team(batter)
-        if not batter_team:
-            debug(f"[WATCH] Skipped {batter}: no team found")
-            continue
-
-        if batter_team == away_team and new_game.get("away_lineup"):
+        if batter in away_roster and new_game.get("away_lineup"):
             was_in = batter in old_away_lineup
             is_in = batter in new_away_lineup
             debug(f"[WATCH] {batter} | team={away_team} | was_in={was_in} | is_in={is_in}")
@@ -256,7 +243,7 @@ def build(old_game, new_game):
                     f"- ✅ {batter} now in {team_label(away_team)} lineup"
                 )
 
-        if batter_team == home_team and new_game.get("home_lineup"):
+        elif batter in home_roster and new_game.get("home_lineup"):
             was_in = batter in old_home_lineup
             is_in = batter in new_home_lineup
             debug(f"[WATCH] {batter} | team={home_team} | was_in={was_in} | is_in={is_in}")
@@ -269,6 +256,9 @@ def build(old_game, new_game):
                 active_lines.append(
                     f"- ✅ {batter} now in {team_label(home_team)} lineup"
                 )
+
+        else:
+            debug(f"[WATCH] Skipped {batter}: not on either game roster")
 
     missing_lines = sorted(set(missing_lines))
     active_lines = sorted(set(active_lines))
