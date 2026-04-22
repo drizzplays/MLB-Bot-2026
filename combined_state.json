@@ -2594,7 +2594,7 @@
     "Minnesota Twins @ New York Mets | 823641": {
       "away_team": "Minnesota Twins",
       "home_team": "New York Mets",
-      "away_pitcher": "TBD",
+      "away_pitcher": "Connor Prielipp",
       "home_pitcher": "Clay Holmes",
       "away_lineup": [],
       "home_lineup": [],
@@ -2605,7 +2605,7 @@
     "Philadelphia Phillies @ Chicago Cubs | 824688": {
       "away_team": "Philadelphia Phillies",
       "home_team": "Chicago Cubs",
-      "away_pitcher": "TBD",
+      "away_pitcher": "Kyle Backhus",
       "home_pitcher": "Matthew Boyd",
       "away_lineup": [],
       "home_lineup": [],
@@ -2628,7 +2628,7 @@
       "away_team": "San Diego Padres",
       "home_team": "Colorado Rockies",
       "away_pitcher": "Walker Buehler",
-      "home_pitcher": "TBD",
+      "home_pitcher": "Tomoyuki Sugano",
       "away_lineup": [],
       "home_lineup": [],
       "game_time": "2026-04-22 08:40 PM ET",
@@ -2656,6 +2656,107 @@
       "game_time": "2026-04-22 09:45 PM ET",
       "game_iso": "2026-04-22T21:45:00-04:00",
       "game_pk": "823231"
+    }
+  },
+  "2026-04-23": {
+    "Atlanta Braves @ Washington Nationals | 822745": {
+      "away_team": "Atlanta Braves",
+      "home_team": "Washington Nationals",
+      "away_pitcher": "Chris Sale",
+      "home_pitcher": "Cade Cavalli",
+      "away_lineup": [],
+      "home_lineup": [],
+      "game_time": "2026-04-23 01:05 PM ET",
+      "game_iso": "2026-04-23T13:05:00-04:00",
+      "game_pk": "822745"
+    },
+    "Milwaukee Brewers @ Detroit Tigers | 824288": {
+      "away_team": "Milwaukee Brewers",
+      "home_team": "Detroit Tigers",
+      "away_pitcher": "Brandon Sproat",
+      "home_pitcher": "Tarik Skubal",
+      "away_lineup": [],
+      "home_lineup": [],
+      "game_time": "2026-04-23 01:10 PM ET",
+      "game_iso": "2026-04-23T13:10:00-04:00",
+      "game_pk": "824288"
+    },
+    "Philadelphia Phillies @ Chicago Cubs | 824689": {
+      "away_team": "Philadelphia Phillies",
+      "home_team": "Chicago Cubs",
+      "away_pitcher": "Cristopher S\u00e1nchez",
+      "home_pitcher": "Edward Cabrera",
+      "away_lineup": [],
+      "home_lineup": [],
+      "game_time": "2026-04-23 02:20 PM ET",
+      "game_iso": "2026-04-23T14:20:00-04:00",
+      "game_pk": "824689"
+    },
+    "San Diego Padres @ Colorado Rockies | 824368": {
+      "away_team": "San Diego Padres",
+      "home_team": "Colorado Rockies",
+      "away_pitcher": "Matt Waldron",
+      "home_pitcher": "TBD",
+      "away_lineup": [],
+      "home_lineup": [],
+      "game_time": "2026-04-23 03:10 PM ET",
+      "game_iso": "2026-04-23T15:10:00-04:00",
+      "game_pk": "824368"
+    },
+    "Chicago White Sox @ Arizona Diamondbacks | 825096": {
+      "away_team": "Chicago White Sox",
+      "home_team": "Arizona Diamondbacks",
+      "away_pitcher": "Davis Martin",
+      "home_pitcher": "Michael Soroka",
+      "away_lineup": [],
+      "home_lineup": [],
+      "game_time": "2026-04-23 03:40 PM ET",
+      "game_iso": "2026-04-23T15:40:00-04:00",
+      "game_pk": "825096"
+    },
+    "Los Angeles Dodgers @ San Francisco Giants | 823233": {
+      "away_team": "Los Angeles Dodgers",
+      "home_team": "San Francisco Giants",
+      "away_pitcher": "Tyler Glasnow",
+      "home_pitcher": "Logan Webb",
+      "away_lineup": [],
+      "home_lineup": [],
+      "game_time": "2026-04-23 03:45 PM ET",
+      "game_iso": "2026-04-23T15:45:00-04:00",
+      "game_pk": "823233"
+    },
+    "New York Yankees @ Boston Red Sox | 824770": {
+      "away_team": "New York Yankees",
+      "home_team": "Boston Red Sox",
+      "away_pitcher": "Cam Schlittler",
+      "home_pitcher": "Brayan Bello",
+      "away_lineup": [],
+      "home_lineup": [],
+      "game_time": "2026-04-23 06:10 PM ET",
+      "game_iso": "2026-04-23T18:10:00-04:00",
+      "game_pk": "824770"
+    },
+    "Minnesota Twins @ New York Mets | 823639": {
+      "away_team": "Minnesota Twins",
+      "home_team": "New York Mets",
+      "away_pitcher": "Joe Ryan",
+      "home_pitcher": "Christian Scott",
+      "away_lineup": [],
+      "home_lineup": [],
+      "game_time": "2026-04-23 07:10 PM ET",
+      "game_iso": "2026-04-23T19:10:00-04:00",
+      "game_pk": "823639"
+    },
+    "Pittsburgh Pirates @ Texas Rangers | 822912": {
+      "away_team": "Pittsburgh Pirates",
+      "home_team": "Texas Rangers",
+      "away_pitcher": "Bubba Chandler",
+      "home_pitcher": "Jacob deGrom",
+      "away_lineup": [],
+      "home_lineup": [],
+      "game_time": "2026-04-23 08:05 PM ET",
+      "game_iso": "2026-04-23T20:05:00-04:00",
+      "game_pk": "822912"
     }
   }
 }
