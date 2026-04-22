@@ -352,7 +352,7 @@
         "Daulton Varsho",
         "Kazuma Okamoto",
         "Andr\u00e9s Gim\u00e9nez",
-        "Eloy Jim\u00e9nez"
+        "Brandon Valenzuela"
       ],
       "home_lineup": [
         "Zach Neto",
@@ -431,7 +431,7 @@
       "away_lineup": [
         "Nick Kurtz",
         "Shea Langeliers",
-        "Carlos Cortes",
+        "Zack Gelof",
         "Tyler Soderstrom",
         "Jacob Wilson",
         "Jeff McNeil",
@@ -445,8 +445,8 @@
         "Julio Rodr\u00edguez",
         "Josh Naylor",
         "Randy Arozarena",
-        "Luke Raley",
-        "Dominic Canzone",
+        "Mitch Garver",
+        "Rob Refsnyder",
         "Cole Young",
         "Leo Rivas"
       ],
@@ -488,8 +488,8 @@
         "Randy Arozarena",
         "Dominic Canzone",
         "Cal Raleigh",
-        "Connor Joe",
         "Rob Refsnyder",
+        "Connor Joe",
         "Cole Wilcox",
         "Matt Brash",
         "Logan Gilbert",
@@ -1193,7 +1193,17 @@
     "Los Angeles Dodgers @ San Francisco Giants | 823231": {
       "away_team": "Los Angeles Dodgers",
       "home_team": "San Francisco Giants",
-      "away_lineup": [],
+      "away_lineup": [
+        "Shohei Ohtani",
+        "Kyle Tucker",
+        "Will Smith",
+        "Freddie Freeman",
+        "Teoscar Hern\u00e1ndez",
+        "Max Muncy",
+        "Andy Pages",
+        "Hyeseong Kim",
+        "Miguel Rojas"
+      ],
       "home_lineup": [
         "Willy Adames",
         "Luis Arraez",
