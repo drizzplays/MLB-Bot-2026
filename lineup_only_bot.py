@@ -196,52 +196,74 @@ def get_player_team(player_name):
         return None
 
 
-def get_missing_watched_batters(new_game):
+def build(old_game, new_game):
+    if not is_pregame(new_game.get("game_iso")):
+        return None
+
     away_team = new_game["away_team"]
     home_team = new_game["home_team"]
-    away_lineup = set(new_game.get("away_lineup", []))
-    home_lineup = set(new_game.get("home_lineup", []))
 
-    missing = []
+    old_away_lineup = set(old_game.get("away_lineup", []))
+    old_home_lineup = set(old_game.get("home_lineup", []))
+    new_away_lineup = set(new_game.get("away_lineup", []))
+    new_home_lineup = set(new_game.get("home_lineup", []))
+
+    if old_away_lineup == new_away_lineup and old_home_lineup == new_home_lineup:
+        return None
+
+    missing_lines = []
+    active_lines = []
 
     for batter in WATCHED_BATTERS:
         batter_team = get_player_team(batter)
         if not batter_team:
             continue
 
-        if batter_team == away_team and batter not in away_lineup and new_game.get("away_lineup"):
-            missing.append((batter, away_team))
+        if batter_team == away_team and new_game.get("away_lineup"):
+            was_in = batter in old_away_lineup
+            is_in = batter in new_away_lineup
 
-        if batter_team == home_team and batter not in home_lineup and new_game.get("home_lineup"):
-            missing.append((batter, home_team))
+            if was_in and not is_in:
+                missing_lines.append(
+                    f"- ❌ {batter} not in {team_label(away_team)} lineup"
+                )
+            elif not was_in and is_in:
+                active_lines.append(
+                    f"- ✅ {batter} now in {team_label(away_team)} lineup"
+                )
 
-    return sorted(missing)
+        if batter_team == home_team and new_game.get("home_lineup"):
+            was_in = batter in old_home_lineup
+            is_in = batter in new_home_lineup
 
+            if was_in and not is_in:
+                missing_lines.append(
+                    f"- ❌ {batter} not in {team_label(home_team)} lineup"
+                )
+            elif not was_in and is_in:
+                active_lines.append(
+                    f"- ✅ {batter} now in {team_label(home_team)} lineup"
+                )
 
-def build(old_game, new_game):
-    if not is_pregame(new_game.get("game_iso")):
+    if not missing_lines and not active_lines:
         return None
 
-    old_away_lineup = old_game.get("away_lineup", [])
-    old_home_lineup = old_game.get("home_lineup", [])
+    sections = []
 
-    if (
-        old_away_lineup == new_game.get("away_lineup", [])
-        and old_home_lineup == new_game.get("home_lineup", [])
-    ):
-        return None
+    if missing_lines:
+        sections.append(
+            "🚨 **WATCHLIST BATTER MISSING**\n\n" + "\n".join(missing_lines)
+        )
 
-    missing = get_missing_watched_batters(new_game)
-    if not missing:
-        return None
-
-    lines = [f"- ❌ {batter} not in {team_label(team)} lineup" for batter, team in missing]
+    if active_lines:
+        sections.append(
+            "✅ **WATCHLIST BATTER NOW ACTIVE**\n\n" + "\n".join(active_lines)
+        )
 
     msg = (
-        f"🚨 **WATCHLIST BATTER MISSING**\n\n"
-        f"**{team_label(new_game['away_team'])} @ {team_label(new_game['home_team'])}**\n"
+        f"**{team_label(away_team)} @ {team_label(home_team)}**\n"
         f"**First pitch:** {new_game['game_time']}\n\n"
-        + "\n".join(lines)
+        + "\n\n".join(sections)
         + "\n\n⚾ DRIZZPLAYS"
     )
 
