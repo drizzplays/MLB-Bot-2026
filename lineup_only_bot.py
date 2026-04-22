@@ -72,6 +72,22 @@ def send(content):
     r.raise_for_status()
 
 
+def load_batters(filename="batters.txt"):
+    try:
+        with open(filename, "r", encoding="utf-8") as f:
+            return {
+                line.strip()
+                for line in f
+                if line.strip() and not line.strip().startswith("#")
+            }
+    except FileNotFoundError:
+        print(f"Watchlist file not found: {filename}")
+        return set()
+
+
+WATCHED_BATTERS = load_batters()
+
+
 def extract_lineup(team_data):
     players = team_data.get("players", {})
     batting_order = team_data.get("battingOrder", [])
@@ -83,15 +99,6 @@ def extract_lineup(team_data):
         lineup.append(name)
 
     return lineup
-
-
-def lineup_to_text(title, lineup):
-    if not lineup:
-        return f"**{title}**\nNot posted yet"
-
-    return f"**{title}**\n" + "\n".join(
-        f"{i + 1}. {player}" for i, player in enumerate(lineup)
-    )
 
 
 def is_pregame(game_iso):
@@ -169,153 +176,76 @@ def get_games(target_date):
     return games
 
 
-def lineup_changes(old_lineup, new_lineup):
-    labels = set()
-    changes = []
-    posted = False
+def get_player_team(player_name):
+    try:
+        r = requests.get(
+            "https://statsapi.mlb.com/api/v1/people/search",
+            params={"sportId": 1, "name": player_name},
+            timeout=10,
+        )
+        r.raise_for_status()
+        data = r.json()
+        people = data.get("people", [])
+        if not people:
+            return None
 
-    if not old_lineup and new_lineup:
-        posted = True
-        labels.add("LINEUP POSTED")
-        return labels, changes, posted
+        current_team = people[0].get("currentTeam", {})
+        return current_team.get("name")
+    except Exception as e:
+        print(f"Player search failed for {player_name}: {e}")
+        return None
 
-    if not new_lineup:
-        return labels, changes, posted
 
-    old_positions = {player: i for i, player in enumerate(old_lineup)}
-    new_positions = {player: i for i, player in enumerate(new_lineup)}
+def get_missing_watched_batters(new_game):
+    away_team = new_game["away_team"]
+    home_team = new_game["home_team"]
+    away_lineup = set(new_game.get("away_lineup", []))
+    home_lineup = set(new_game.get("home_lineup", []))
 
-    used_old = set()
-    used_new = set()
+    missing = []
 
-    max_len = max(len(old_lineup), len(new_lineup))
+    for batter in WATCHED_BATTERS:
+        batter_team = get_player_team(batter)
+        if not batter_team:
+            continue
 
-    for i in range(max_len):
-        old_player = old_lineup[i] if i < len(old_lineup) else None
-        new_player = new_lineup[i] if i < len(new_lineup) else None
+        if batter_team == away_team and batter not in away_lineup and new_game.get("away_lineup"):
+            missing.append((batter, away_team))
 
-        if old_player and new_player and old_player != new_player:
-            if old_player not in new_positions and new_player not in old_positions:
-                changes.append(f"🔄 {new_player} replaces {old_player} at {i + 1}")
-                labels.add("LINEUP SWITCH")
-                used_old.add(old_player)
-                used_new.add(new_player)
+        if batter_team == home_team and batter not in home_lineup and new_game.get("home_lineup"):
+            missing.append((batter, home_team))
 
-    for player in new_lineup:
-        if player in old_positions and player not in used_new:
-            old_pos = old_positions[player]
-            new_pos = new_positions[player]
-
-            if old_pos != new_pos:
-                direction = "📈" if new_pos < old_pos else "📉"
-                changes.append(f"{direction} {player} moved from {old_pos + 1} → {new_pos + 1}")
-                labels.add("LINEUP REARRANGED")
-
-    for player in new_lineup:
-        if player not in old_positions and player not in used_new:
-            pos = new_positions[player] + 1
-            changes.append(f"➕ {player} added at {pos}")
-            labels.add("LINEUP SWITCH")
-
-    for player in old_lineup:
-        if player not in new_positions and player not in used_old:
-            pos = old_positions[player] + 1
-            changes.append(f"❌ {player} removed from {pos}")
-            labels.add("LINEUP SWITCH")
-
-    return labels, changes, posted
+    return missing
 
 
 def build(old_game, new_game):
     if not is_pregame(new_game.get("game_iso")):
         return None
 
-    labels = []
-    sections = []
+    old_away_lineup = old_game.get("away_lineup", [])
+    old_home_lineup = old_game.get("home_lineup", [])
 
-    away_labels, away_changes, away_posted = lineup_changes(
-        old_game.get("away_lineup", []),
-        new_game.get("away_lineup", []),
-    )
-    home_labels, home_changes, home_posted = lineup_changes(
-        old_game.get("home_lineup", []),
-        new_game.get("home_lineup", []),
-    )
-
-    for label in ["LINEUP POSTED", "LINEUP REARRANGED", "LINEUP SWITCH"]:
-        if label in away_labels or label in home_labels:
-            labels.append(label)
-
-    if away_posted:
-        sections.append(
-            lineup_to_text(
-                f"{team_label(new_game['away_team'])} LINEUP POSTED",
-                new_game.get("away_lineup", []),
-            )
-        )
-    elif away_changes:
-        sections.append(
-            f"**{team_label(new_game['away_team'])} CHANGES**\n"
-            + "\n".join(f"- {x}" for x in away_changes)
-        )
-        sections.append(
-            lineup_to_text(
-                f"UPDATED {team_label(new_game['away_team'])} LINEUP",
-                new_game.get("away_lineup", []),
-            )
-        )
-
-    if home_posted:
-        sections.append(
-            lineup_to_text(
-                f"{team_label(new_game['home_team'])} LINEUP POSTED",
-                new_game.get("home_lineup", []),
-            )
-        )
-    elif home_changes:
-        sections.append(
-            f"**{team_label(new_game['home_team'])} CHANGES**\n"
-            + "\n".join(f"- {x}" for x in home_changes)
-        )
-        sections.append(
-            lineup_to_text(
-                f"UPDATED {team_label(new_game['home_team'])} LINEUP",
-                new_game.get("home_lineup", []),
-            )
-        )
-
-    labels = list(dict.fromkeys(labels))
-
-    if not labels:
+    if (
+        old_away_lineup == new_game.get("away_lineup", [])
+        and old_home_lineup == new_game.get("home_lineup", [])
+    ):
         return None
 
-    top_label = " + ".join(labels)
+    missing = get_missing_watched_batters(new_game)
+    if not missing:
+        return None
+
+    lines = []
+    for batter, team in missing:
+        lines.append(f"- ❌ {batter} not in {team_label(team)} lineup")
 
     msg = (
-        f"🚨 **{top_label}**\n\n"
+        f"🚨 **WATCHLIST BATTER MISSING**\n\n"
         f"**{team_label(new_game['away_team'])} @ {team_label(new_game['home_team'])}**\n"
         f"**First pitch:** {new_game['game_time']}\n\n"
-        + "\n\n".join(sections)
+        + "\n".join(lines)
         + "\n\n⚾ DRIZZPLAYS"
     )
-
-    if len(msg) > 1900:
-        msg = (
-            f"🚨 **{top_label}**\n\n"
-            f"**{team_label(new_game['away_team'])} @ {team_label(new_game['home_team'])}**\n"
-            f"**First pitch:** {new_game['game_time']}\n\n"
-            f"Message too long. Showing updated lineups only.\n\n"
-            + lineup_to_text(
-                f"UPDATED {team_label(new_game['away_team'])} LINEUP",
-                new_game.get("away_lineup", []),
-            )
-            + "\n\n"
-            + lineup_to_text(
-                f"UPDATED {team_label(new_game['home_team'])} LINEUP",
-                new_game.get("home_lineup", []),
-            )
-            + "\n\n⚾ DRIZZPLAYS"
-        )
 
     return msg
 
@@ -328,6 +258,7 @@ def run():
     if CHECK_TOMORROW:
         dates_to_check.append(today + timedelta(days=1))
 
+    print(f"Loaded watched batters: {len(WATCHED_BATTERS)}")
     print(f"Loaded state keys: {list(state.keys())}")
 
     total_alerts = 0
