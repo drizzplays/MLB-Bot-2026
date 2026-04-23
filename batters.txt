@@ -12,3 +12,4 @@ Cody Bellinger
 Oneil Cruz
 Brandon Lowe
 Brandon Nimmo
+Matt Olson
