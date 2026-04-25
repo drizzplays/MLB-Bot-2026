@@ -89,7 +89,7 @@
       "away_team": "Seattle Mariners",
       "home_team": "St. Louis Cardinals",
       "away_lineup": [
-        "Rob Refsnyder",
+        "Connor Joe",
         "Cal Raleigh",
         "Julio Rodr\u00edguez",
         "Josh Naylor",
@@ -97,7 +97,7 @@
         "J.P. Crawford",
         "Mitch Garver",
         "Cole Young",
-        "Dominic Canzone"
+        "Leo Rivas"
       ],
       "home_lineup": [
         "JJ Wetherholt",
@@ -107,7 +107,7 @@
         "Nolan Gorman",
         "Masyn Winn",
         "Nathan Church",
-        "Pedro Pag\u00e9s",
+        "Yohel Pozo",
         "Victor Scott II"
       ],
       "away_roster": [
@@ -154,9 +154,9 @@
         "Justin Bruihl",
         "Alec Burleson",
         "Thomas Saggese",
+        "Yohel Pozo",
         "Riley O'Brien",
         "Andre Pallante",
-        "Yohel Pozo",
         "George Soriano",
         "Pedro Pag\u00e9s",
         "Matthew Liberatore",
@@ -179,7 +179,7 @@
         "Jos\u00e9 Ram\u00edrez",
         "Rhys Hoskins",
         "George Valera",
-        "David Fry",
+        "Daniel Schneemann",
         "Juan Brito",
         "Bo Naylor",
         "Brayan Rocchio"
@@ -189,7 +189,7 @@
         "Ernie Clement",
         "Vladimir Guerrero Jr.",
         "Kazuma Okamoto",
-        "Eloy Jim\u00e9nez",
+        "Jes\u00fas S\u00e1nchez",
         "Daulton Varsho",
         "Davis Schneider",
         "Andr\u00e9s Gim\u00e9nez",
@@ -359,7 +359,7 @@
         "Junior Caminero",
         "Jonathan Aranda",
         "Yandy D\u00edaz",
-        "Jake Fraley",
+        "Jonny DeLuca",
         "Ben Williamson",
         "Cedric Mullins",
         "Nick Fortes",
@@ -445,7 +445,7 @@
         "Miguel Vargas",
         "Colson Montgomery",
         "Everson Pereira",
-        "Sam Antonacci",
+        "Tanner Murray",
         "Chase Meidroth",
         "Tristan Peters",
         "Edgar Quero"
@@ -548,6 +548,7 @@
         "Jason Adam",
         "Germ\u00e1n M\u00e1rquez",
         "Bradgley Rodriguez",
+        "Sung-Mun Song",
         "Gavin Sheets",
         "Ram\u00f3n Laureano",
         "Adrian Morejon",
@@ -768,7 +769,17 @@
     "New York Yankees @ Houston Astros | 824203": {
       "away_team": "New York Yankees",
       "home_team": "Houston Astros",
-      "away_lineup": [],
+      "away_lineup": [
+        "Trent Grisham",
+        "Ben Rice",
+        "Aaron Judge",
+        "Cody Bellinger",
+        "Jazz Chisholm Jr.",
+        "Amed Rosario",
+        "Austin Wells",
+        "Ryan McMahon",
+        "Jos\u00e9 Caballero"
+      ],
       "home_lineup": [
         "Carlos Correa",
         "Yordan Alvarez",
@@ -784,8 +795,8 @@
         "Paul Blackburn",
         "Jos\u00e9 Caballero",
         "Ryan Yarbrough",
-        "Randal Grichuk",
         "Amed Rosario",
+        "Randal Grichuk",
         "Aaron Judge",
         "Ryan McMahon",
         "Ryan Weathers",
@@ -806,7 +817,6 @@
         "Camilo Doval",
         "Trent Grisham",
         "David Bednar",
-        "Angel Chivilli",
         "Cam Schlittler"
       ],
       "home_roster": [
@@ -844,7 +854,17 @@
     "Pittsburgh Pirates @ Milwaukee Brewers | 823799": {
       "away_team": "Pittsburgh Pirates",
       "home_team": "Milwaukee Brewers",
-      "away_lineup": [],
+      "away_lineup": [
+        "Oneil Cruz",
+        "Brandon Lowe",
+        "Bryan Reynolds",
+        "Ryan O'Hearn",
+        "Nick Gonzales",
+        "Spencer Horwitz",
+        "Jake Mangum",
+        "Konnor Griffin",
+        "Henry Davis"
+      ],
       "home_lineup": [
         "Brice Turang",
         "William Contreras",
@@ -861,8 +881,8 @@
         "Nick Yorke",
         "Spencer Horwitz",
         "Brandon Lowe",
-        "Joey Bart",
         "Bryan Reynolds",
+        "Joey Bart",
         "Oneil Cruz",
         "Evan Sisk",
         "Gregory Soto",
@@ -1004,7 +1024,17 @@
     "Chicago Cubs @ Los Angeles Dodgers | 823960": {
       "away_team": "Chicago Cubs",
       "home_team": "Los Angeles Dodgers",
-      "away_lineup": [],
+      "away_lineup": [
+        "Nico Hoerner",
+        "Michael Busch",
+        "Alex Bregman",
+        "Ian Happ",
+        "Seiya Suzuki",
+        "Mois\u00e9s Ballesteros",
+        "Dansby Swanson",
+        "Pete Crow-Armstrong",
+        "Miguel Amaya"
+      ],
       "home_lineup": [
         "Shohei Ohtani",
         "Freddie Freeman",
@@ -1021,8 +1051,8 @@
         "Michael Conforto",
         "Hoby Milner",
         "Riley Martin",
-        "Edward Cabrera",
         "Ian Happ",
+        "Edward Cabrera",
         "Javier Assad",
         "Shota Imanaga",
         "Alex Bregman",
@@ -1038,8 +1068,8 @@
         "Seiya Suzuki",
         "Ryan Rolison",
         "Matthew Boyd",
-        "Colin Rea",
         "Dansby Swanson",
+        "Colin Rea",
         "Nico Hoerner",
         "Ben Brown",
         "Matt Shaw"
@@ -1079,7 +1109,17 @@
     "Philadelphia Phillies @ Atlanta Braves | 824933": {
       "away_team": "Philadelphia Phillies",
       "home_team": "Atlanta Braves",
-      "away_lineup": [],
+      "away_lineup": [
+        "Trea Turner",
+        "Kyle Schwarber",
+        "Bryce Harper",
+        "Adolis Garc\u00eda",
+        "Brandon Marsh",
+        "Bryson Stott",
+        "Alec Bohm",
+        "Justin Crawford",
+        "Rafael March\u00e1n"
+      ],
       "home_lineup": [
         "Ronald Acu\u00f1a Jr.",
         "Drake Baldwin",
@@ -1104,8 +1144,8 @@
         "Alec Bohm",
         "Chase Shugart",
         "Tim Mayza",
-        "Nolan Hoffman",
         "Bryson Stott",
+        "Nolan Hoffman",
         "Kyle Schwarber",
         "Rafael March\u00e1n",
         "Felix Reyes",
