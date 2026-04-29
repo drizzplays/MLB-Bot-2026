@@ -1,11 +1,29 @@
 {
   "date": "2026-04-29",
   "games": {
+    "822821": {
+      "active_pitcher_id": 693686,
+      "active_pitcher_name": "Spencer Miles",
+      "alerted_pairs": [],
+      "last_checked_at": "2026-04-29T17:43:29.051604-04:00"
+    },
+    "823312": {
+      "active_pitcher_id": 670970,
+      "active_pitcher_name": "Adrian Morejon",
+      "alerted_pairs": [],
+      "last_checked_at": "2026-04-29T17:43:34.796865-04:00"
+    },
     "823717": {
       "active_pitcher_id": 671737,
       "active_pitcher_name": "Taj Bradley",
       "alerted_pairs": [],
       "last_checked_at": "2026-04-29T13:57:19.701753-04:00"
+    },
+    "823958": {
+      "active_pitcher_id": 676534,
+      "active_pitcher_name": "Calvin Faucher",
+      "alerted_pairs": [],
+      "last_checked_at": "2026-04-29T17:43:31.947713-04:00"
     },
     "824608": {
       "active_pitcher_id": 815083,
