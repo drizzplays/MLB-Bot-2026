@@ -1,35 +1,4 @@
 {
-  "date": "2026-04-28",
-  "games": {
-    "823390": {
-      "active_pitcher_id": 677952,
-      "active_pitcher_name": "Braxton Ashcraft",
-      "alerted_pairs": [],
-      "last_checked_at": "2026-04-28T18:38:52.722855-04:00"
-    },
-    "823473": {
-      "active_pitcher_id": 666200,
-      "active_pitcher_name": "Jes\u00fas Luzardo",
-      "alerted_pairs": [],
-      "last_checked_at": "2026-04-28T18:38:54.605599-04:00"
-    },
-    "824447": {
-      "active_pitcher_id": 676440,
-      "active_pitcher_name": "Tanner Bibee",
-      "alerted_pairs": [],
-      "last_checked_at": "2026-04-28T18:38:47.324191-04:00"
-    },
-    "824526": {
-      "active_pitcher_id": 695505,
-      "active_pitcher_name": "Chase Burns",
-      "alerted_pairs": [],
-      "last_checked_at": "2026-04-28T18:38:51.005951-04:00"
-    },
-    "824849": {
-      "active_pitcher_id": 669358,
-      "active_pitcher_name": "Shane Baz",
-      "alerted_pairs": [],
-      "last_checked_at": "2026-04-28T18:38:49.282969-04:00"
-    }
-  }
+  "date": "2026-04-29",
+  "games": {}
 }
