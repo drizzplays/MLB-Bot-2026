@@ -1,4 +1,17 @@
 {
   "date": "2026-04-29",
-  "games": {}
+  "games": {
+    "823717": {
+      "active_pitcher_id": 671737,
+      "active_pitcher_name": "Taj Bradley",
+      "alerted_pairs": [],
+      "last_checked_at": "2026-04-29T13:57:19.701753-04:00"
+    },
+    "824608": {
+      "active_pitcher_id": 815083,
+      "active_pitcher_name": "Mitch Farris",
+      "alerted_pairs": [],
+      "last_checked_at": "2026-04-29T13:57:17.638802-04:00"
+    }
+  }
 }
