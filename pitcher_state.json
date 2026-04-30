@@ -1027,8 +1027,8 @@
     "San Francisco Giants @ Philadelphia Phillies | 823471": {
       "away_team": "San Francisco Giants",
       "home_team": "Philadelphia Phillies",
-      "away_pitcher": "TBD",
-      "home_pitcher": "TBD",
+      "away_pitcher": "Adrian Houser",
+      "home_pitcher": "Tim Mayza",
       "game_time": "Apr 30, 5:35 PM ET",
       "game_iso": "2026-04-30T17:35:00-04:00",
       "game_pk": "823471"
@@ -1209,7 +1209,7 @@
     "Kansas City Royals @ Seattle Mariners | 823146": {
       "away_team": "Kansas City Royals",
       "home_team": "Seattle Mariners",
-      "away_pitcher": "TBD",
+      "away_pitcher": "Cole Ragans",
       "home_pitcher": "Bryan Woo",
       "game_time": "May 1, 9:45 PM ET",
       "game_iso": "2026-05-01T21:45:00-04:00",
