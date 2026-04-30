@@ -7,6 +7,12 @@
       "alerted_pairs": [],
       "last_checked_at": "2026-04-30T13:04:37.375921-04:00"
     },
+    "823471": {
+      "active_pitcher_id": 670950,
+      "active_pitcher_name": "Trevor Richards",
+      "alerted_pairs": [],
+      "last_checked_at": "2026-04-30T19:38:30.717414-04:00"
+    },
     "823472": {
       "active_pitcher_id": 657277,
       "active_pitcher_name": "Logan Webb",
@@ -18,6 +24,12 @@
       "active_pitcher_name": "Freddy Peralta",
       "alerted_pairs": [],
       "last_checked_at": "2026-04-30T13:04:42.462084-04:00"
+    },
+    "823714": {
+      "active_pitcher_id": 641927,
+      "active_pitcher_name": "Bailey Ober",
+      "alerted_pairs": [],
+      "last_checked_at": "2026-04-30T19:38:33.563697-04:00"
     },
     "824524": {
       "active_pitcher_id": 671096,
