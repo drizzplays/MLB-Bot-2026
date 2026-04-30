@@ -31,11 +31,23 @@
       "alerted_pairs": [],
       "last_checked_at": "2026-04-30T13:04:35.638587-04:00"
     },
+    "824850": {
+      "active_pitcher_id": 621121,
+      "active_pitcher_name": "Lance McCullers Jr.",
+      "alerted_pairs": [],
+      "last_checked_at": "2026-04-30T16:43:59.576267-04:00"
+    },
     "824929": {
       "active_pitcher_id": 693821,
       "active_pitcher_name": "Bryce Elder",
       "alerted_pairs": [],
       "last_checked_at": "2026-04-30T13:04:33.916168-04:00"
+    },
+    "825016": {
+      "active_pitcher_id": 702070,
+      "active_pitcher_name": "Noah Cameron",
+      "alerted_pairs": [],
+      "last_checked_at": "2026-04-30T16:44:01.347415-04:00"
     }
   }
 }
