@@ -1,23 +1,4 @@
 {
-  "date": "2026-05-01",
-  "games": {
-    "822744": {
-      "active_pitcher_id": 663623,
-      "active_pitcher_name": "Jake Irvin",
-      "alerted_pairs": [],
-      "last_checked_at": "2026-05-01T18:37:35.243984-04:00"
-    },
-    "824287": {
-      "active_pitcher_id": 656427,
-      "active_pitcher_name": "Jack Flaherty",
-      "alerted_pairs": [],
-      "last_checked_at": "2026-05-01T18:37:33.449319-04:00"
-    },
-    "824686": {
-      "active_pitcher_id": 657044,
-      "active_pitcher_name": "Ryan Thompson",
-      "alerted_pairs": [],
-      "last_checked_at": "2026-05-01T15:50:59.242703-04:00"
-    }
-  }
+  "date": "2026-05-02",
+  "games": {}
 }
